@@ -1,0 +1,77 @@
+.text{
+    font-family: Tahoma;
+    font-size: 28px;
+    font-weight: bold;
+}
+.year{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+    margin-bottom: 0;
+}
+.sales{
+    margin-top: 4;
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(181, 46, 46);
+    
+}
+.course{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana;
+    margin-bottom: 0;
+}
+.pro{
+    font-family: verdana;
+    font-size: 15px;
+    margin-top: 2;
+    color: grey;
+}
+.about{
+    font-family: verdana;
+    font-size: 16px;
+    width: 300px;
+    font-weight: 100;
+}
+.b1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.shop{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+.apple{
+    font-family: Arial;
+    text-align: center;  
+}
+.eg{
+    text-align: center;
+    font-family: Arial;
+    color: blue;
+    cursor: pointer;
+
+}
+.model{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.order{
+    text-align: center;
+    font-size: 25px;
+
+}

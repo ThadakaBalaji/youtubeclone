@@ -1,0 +1,66 @@
+a:link {
+    color: blue;
+  }
+
+  a:visited {
+    color: orange;
+  }
+  a:hover {
+    color: blue;
+  }
+  
+  a:active {
+    color: red;
+  }
+
+  .addto{
+    background-color: rgb(219, 185, 49);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-width: 1px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .addto:hover {
+    opacity: 1;
+  }
+  .addto:active {
+     opacity: 0.7;
+  }
+
+  .buy {
+  background-color: rgb(223, 154, 5);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-width: 1px;
+  height: 30px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 8px;
+  font-size: 14px;
+  opacity: 0.8;
+  }
+  .buy:hover {
+  opacity: 1;
+  }
+  .buy:active {
+   opacity: 0.7;
+  }
+  .p3 {
+    font-size: 18px;
+  }
+  .p1 {
+    color: rgb(104, 171, 4);
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .p2{
+    font-size: 25px;
+    font-weight: 800;
+  }
