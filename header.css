@@ -1,0 +1,170 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(234, 234, 234);
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 155px;
+}
+.hm{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.logo{
+    height: 20px;
+}
+.center{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 50px;
+    max-width: 500px;
+    align-items: center;
+}
+.search::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.sb{
+    height: 39px;
+    width: 66px;
+    margin-left: -1px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+    position: relative;
+}
+.sb .tooltip,
+.vs .tooltip,
+.upload .tooltip,
+.apps .tooltip,
+.notification .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    font-family: roboto,arial;
+    padding: 4px 8px 4px 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+}
+.sb:hover .tooltip,
+.vs:hover .tooltip,
+.upload:hover .tooltip,
+.apps:hover .tooltip,
+.notification:hover .tooltip{
+    opacity: 1;
+}
+.vs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    white-space: nowrap;
+
+    position: relative;
+    
+}
+.upload,
+.apps,
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+    position: relative;
+
+}
+.search{
+    font-size: 16px;
+    padding-left: 10px;
+    height: 36px;
+    border-style: solid;
+    flex: 1;
+    border-radius: 2px;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+
+}
+.si{
+    height: 25px;
+}
+.vsi{
+    height: 24px;
+    
+}
+.right{
+    width:180px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.noification{
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+}
+.notification{
+    position: relative;
+}
+.n{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-family: roboto,arial;
+    border-radius: 15px;
+    font-size: 9px;
+    padding: 2px 2px 2px 3px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+
+}
+.up{
+    height: 25px;
+    
+}
+.gr{
+    height: 25px;
+}
+.noti{
+    height: 24px;
+}
+.user{
+    height: 32px;
+    margin-right: 15px;
+    border-radius: 16px; 
+}
